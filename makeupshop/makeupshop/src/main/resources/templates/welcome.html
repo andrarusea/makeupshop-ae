@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Makeup Shop</title>
+</head>
+<body>
+<header>
+    <h1>Welcome to Makeup Shop</h1>
+    <p>Your one-stop destination for all your makeup needs!</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="/Home.html">Makeup</a></li>
+        <li><a href="@{/products?category=SKINCARE}">Skincare</a></li>
+        <li><a href="@{/products?category=PERFUMES}">Perfumes</a></li>
+    </ul>
+</nav>
+
+<main>
+
+
+    <section>
+        <h2>About Us</h2>
+        <p>At Makeup Shop, we offer a wide range of high-quality makeup products including cosmetics, skincare, and beauty accessories.</p>
+    </section>
+
+    <section>
+        <h2>Our Products</h2>
+        <p>Explore our collection of makeup products from top brands:</p>
+        <ul>
+            <li>Makeup</li>
+            <li>Skincare</li>
+            <li>Perfumes</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>Contact us: info@makeupshop.com</p>
+</footer>
+</body>
+</html>

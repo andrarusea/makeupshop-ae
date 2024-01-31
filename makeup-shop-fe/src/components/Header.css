@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .left-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-icon,
+  .cart-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between the icons */
+  }
+  
+  /* Add hover effect for the cart icon */
+  .cart-icon:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Add padding to the top of the content */
+  .content {
+    padding-top: 60px; /* Adjust the value to match the height of your header */
+  }
+  

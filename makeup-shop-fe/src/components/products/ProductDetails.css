@@ -1,0 +1,27 @@
+/* ProductDetails.css */
+
+.product-details-container {
+    display: flow-root;
+    justify-content: center;
+    padding: 100px;
+  }
+  
+  .product-card {
+    width: 100%; /* Adjust width to make it larger */
+    padding: 50px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-info {
+    padding: 20px; /* Increase padding for better spacing */
+  }
+  
+  .product-info p {
+    margin: 10px 0; /* Increase margin for better spacing */
+  }
+  

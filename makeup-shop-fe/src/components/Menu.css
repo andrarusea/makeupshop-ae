@@ -1,0 +1,35 @@
+
+.my-menu {
+    margin-top: 60px;
+    position: fixed ; 
+    top: 5px;
+    left: 0;
+}
+
+.p-menu 
+{
+background: #b3faa5 !important;
+}
+
+.p-submenu-header {
+    background: #b3faa5 !important;
+}
+
+.p-menuitem {
+    border-radius: 10px;
+    background: #22C55E;
+    margin: 5px;
+    color: white !important;
+}
+
+
+.p-menu-list {
+    height: 100%;
+    position: relative;
+}
+
+.p-menuitem:last-child {
+    width: calc(100% - 10px);
+    position: absolute;
+    bottom: 0;
+}
